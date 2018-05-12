@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/smb2.dir/alloc.c.o"
+  "CMakeFiles/smb2.dir/errors.c.o"
+  "CMakeFiles/smb2.dir/init.c.o"
+  "CMakeFiles/smb2.dir/hmac-md5.c.o"
+  "CMakeFiles/smb2.dir/krb5-wrapper.c.o"
+  "CMakeFiles/smb2.dir/libsmb2.c.o"
+  "CMakeFiles/smb2.dir/md4c.c.o"
+  "CMakeFiles/smb2.dir/md5.c.o"
+  "CMakeFiles/smb2.dir/ntlmssp.c.o"
+  "CMakeFiles/smb2.dir/pdu.c.o"
+  "CMakeFiles/smb2.dir/smb2-cmd-close.c.o"
+  "CMakeFiles/smb2.dir/smb2-cmd-create.c.o"
+  "CMakeFiles/smb2.dir/smb2-cmd-echo.c.o"
+  "CMakeFiles/smb2.dir/smb2-cmd-error.c.o"
+  "CMakeFiles/smb2.dir/smb2-cmd-flush.c.o"
+  "CMakeFiles/smb2.dir/smb2-cmd-logoff.c.o"
+  "CMakeFiles/smb2.dir/smb2-cmd-negotiate.c.o"
+  "CMakeFiles/smb2.dir/smb2-cmd-query-directory.c.o"
+  "CMakeFiles/smb2.dir/smb2-cmd-query-info.c.o"
+  "CMakeFiles/smb2.dir/smb2-cmd-read.c.o"
+  "CMakeFiles/smb2.dir/smb2-cmd-session-setup.c.o"
+  "CMakeFiles/smb2.dir/smb2-cmd-set-info.c.o"
+  "CMakeFiles/smb2.dir/smb2-cmd-tree-connect.c.o"
+  "CMakeFiles/smb2.dir/smb2-cmd-tree-disconnect.c.o"
+  "CMakeFiles/smb2.dir/smb2-cmd-write.c.o"
+  "CMakeFiles/smb2.dir/smb2-data-file-info.c.o"
+  "CMakeFiles/smb2.dir/smb2-data-filesystem-info.c.o"
+  "CMakeFiles/smb2.dir/smb2-data-security-descriptor.c.o"
+  "CMakeFiles/smb2.dir/socket.c.o"
+  "CMakeFiles/smb2.dir/sync.c.o"
+  "CMakeFiles/smb2.dir/timestamps.c.o"
+  "CMakeFiles/smb2.dir/unicode.c.o"
+  "libsmb2.pdb"
+  "libsmb2.so"
+  "libsmb2.so.1.0.0"
+  "libsmb2.so.1"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/smb2.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

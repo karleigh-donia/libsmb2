@@ -1,0 +1,35 @@
+Scanning dependencies of target smb2
+[  3%] Building C object lib/CMakeFiles/smb2.dir/alloc.c.o
+[  6%] Building C object lib/CMakeFiles/smb2.dir/errors.c.o
+[  9%] Building C object lib/CMakeFiles/smb2.dir/init.c.o
+[ 12%] Building C object lib/CMakeFiles/smb2.dir/hmac-md5.c.o
+[ 15%] Building C object lib/CMakeFiles/smb2.dir/krb5-wrapper.c.o
+[ 18%] Building C object lib/CMakeFiles/smb2.dir/libsmb2.c.o
+[ 21%] Building C object lib/CMakeFiles/smb2.dir/md4c.c.o
+[ 24%] Building C object lib/CMakeFiles/smb2.dir/md5.c.o
+[ 27%] Building C object lib/CMakeFiles/smb2.dir/ntlmssp.c.o
+[ 30%] Building C object lib/CMakeFiles/smb2.dir/pdu.c.o
+[ 33%] Building C object lib/CMakeFiles/smb2.dir/smb2-cmd-close.c.o
+[ 36%] Building C object lib/CMakeFiles/smb2.dir/smb2-cmd-create.c.o
+[ 39%] Building C object lib/CMakeFiles/smb2.dir/smb2-cmd-echo.c.o
+[ 42%] Building C object lib/CMakeFiles/smb2.dir/smb2-cmd-error.c.o
+[ 45%] Building C object lib/CMakeFiles/smb2.dir/smb2-cmd-flush.c.o
+[ 48%] Building C object lib/CMakeFiles/smb2.dir/smb2-cmd-logoff.c.o
+[ 51%] Building C object lib/CMakeFiles/smb2.dir/smb2-cmd-negotiate.c.o
+[ 54%] Building C object lib/CMakeFiles/smb2.dir/smb2-cmd-query-directory.c.o
+[ 57%] Building C object lib/CMakeFiles/smb2.dir/smb2-cmd-query-info.c.o
+[ 60%] Building C object lib/CMakeFiles/smb2.dir/smb2-cmd-read.c.o
+[ 63%] Building C object lib/CMakeFiles/smb2.dir/smb2-cmd-session-setup.c.o
+[ 66%] Building C object lib/CMakeFiles/smb2.dir/smb2-cmd-set-info.c.o
+[ 69%] Building C object lib/CMakeFiles/smb2.dir/smb2-cmd-tree-connect.c.o
+[ 72%] Building C object lib/CMakeFiles/smb2.dir/smb2-cmd-tree-disconnect.c.o
+[ 75%] Building C object lib/CMakeFiles/smb2.dir/smb2-cmd-write.c.o
+[ 78%] Building C object lib/CMakeFiles/smb2.dir/smb2-data-file-info.c.o
+[ 81%] Building C object lib/CMakeFiles/smb2.dir/smb2-data-filesystem-info.c.o
+[ 84%] Building C object lib/CMakeFiles/smb2.dir/smb2-data-security-descriptor.c.o
+[ 87%] Building C object lib/CMakeFiles/smb2.dir/socket.c.o
+[ 90%] Building C object lib/CMakeFiles/smb2.dir/sync.c.o
+[ 93%] Building C object lib/CMakeFiles/smb2.dir/timestamps.c.o
+[ 96%] Building C object lib/CMakeFiles/smb2.dir/unicode.c.o
+[100%] Linking C shared library libsmb2.so
+[100%] Built target smb2

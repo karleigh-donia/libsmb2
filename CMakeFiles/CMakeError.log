@@ -1,0 +1,110 @@
+Determining if the include file gssapi/gssapi.h exists failed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0cd28/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0cd28.dir/build.make CMakeFiles/cmTC_0cd28.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0cd28.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_0cd28.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:27: fatal error: gssapi/gssapi.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_0cd28.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0cd28.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0cd28.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0cd28/fast' failed
+make: *** [cmTC_0cd28/fast] Error 2
+
+
+Determining if the include file sys/filio.h exists failed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a000/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a000.dir/build.make CMakeFiles/cmTC_2a000.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a000.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_2a000.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: fatal error: sys/filio.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_2a000.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2a000.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_2a000.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2a000/fast' failed
+make: *** [cmTC_2a000/fast] Error 2
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0206c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0206c.dir/build.make CMakeFiles/cmTC_0206c.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0206c.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_0206c.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:24: fatal error: sys/sockio.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_0206c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0206c.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0206c.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0206c/fast' failed
+make: *** [cmTC_0206c/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_LEN failed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15b29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15b29.dir/build.make CMakeFiles/cmTC_15b29.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15b29.dir/src.c.o
+/usr/bin/cc    -DHAVE_SOCKADDR_LEN   -o CMakeFiles/cmTC_15b29.dir/src.c.o   -c /home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp/src.c
+/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp/src.c:6:39: error: ‘struct sockaddr’ has no member named ‘sa_len’
+    (void)sizeof(((struct sockaddr *)0)->sa_len);
+                                       ^
+CMakeFiles/cmTC_15b29.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_15b29.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_15b29.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_15b29/fast' failed
+make: *** [cmTC_15b29/fast] Error 2
+
+Source file was:
+
+#include <sys/socket.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr *)0)->sa_len);
+   return 0;
+}
+
+Determining if the makedev exist failed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74a26/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74a26.dir/build.make CMakeFiles/cmTC_74a26.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74a26.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_74a26.dir/CheckSymbolExists.c.o   -c /home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:23: fatal error: sys/mkdev.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_74a26.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_74a26.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_74a26.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_74a26/fast' failed
+make: *** [cmTC_74a26/fast] Error 2
+
+File /home/predator/Documents/Project/temp/libsmb2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mkdev.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef makedev
+  return ((int*)(&makedev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
